@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+        <div id="root">   
+
+        </div>
+
+        <script type="text/babel"> 
+        let x=<div style={{display:"flex",justifyContent:"center",marginTop:"50px"}}><div style={{height:"350px",width:"250px",border:"1px solid black"}}>
+            <div style={{display:"flex",justifyContent:"center",marginTop:"30px"}} >
+             <img src="https://t4.ftcdn.net/jpg/03/25/73/59/360_F_325735908_TkxHU7okor9CTWHBhkGfdRumONWfIDEb.jpg" width="100px" height="100px" style={{borderRadius:"50%",display:"flex",justifyContent:"center"}} />  
+                </div>
+                <div >
+                 <h2 style={{display:"flex",justifyContent:"center",color:"#25ACA3"}}>Sayantan Roy</h2>
+                 <p style={{display:"flex",justifyContent:"center",marginTop:"-20px",color:"#9A566D"}}>I enjoy drinking a cup of coffee</p>   
+                    </div>
+                    <div style={{display:"flex",justifyContent:"space-evenly", marginTop:"-10px", color:"#C71A54"}}>
+                      <h4>60</h4>  
+                      <h4>90</h4> 
+                      <h4>120</h4> 
+                        </div>
+                        <div style={{display:"flex",justifyContent:"space-evenly", marginTop:"-32px", marginLeft:"20px", color:"#9A566D"}}>
+                      <p>Shoot</p>  
+                      <p>Followers</p> 
+                      <p>Following</p> 
+                        </div>
+                        <div style={{display:"flex",justifyContent:"space-evenly",height:"32px" }}>
+                           <button style={{width:"85px",cursor:"pointer",backgroundColor:"#C71AAE",color:"white",borderRadius:"8px",fontSize:"16px"}}>Follow</button> 
+                           <button style={{width:"85px",cursor:"pointer",backgroundColor:"#C71A54",color:"white",borderRadius:"8px",fontSize:"16px"}}>Message</button> 
+                            </div>
+            
+            </div></div>
+        ReactDOM.render(x,document.getElementById('root'))
+        </script>
+</body>
+</html>
